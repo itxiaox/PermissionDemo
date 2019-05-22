@@ -28,10 +28,18 @@
    
 #   方式二 [PermissionDispatcher库](https://github.com/permissions-dispatcher/PermissionsDispatcher)
    
-   采用开源框架 PermissionDispatcher库,
+   采用开源框架 PermissionDispatcher库, 
+   * 最新的版本： 4.x only supports Jetpack. If you still use appcompat 3.x is the way to go.
    
  
 # 方式三 [RxPermission库](https://github.com/tbruyelle/RxPermissions)
+Rx 和RxJava 搭配起来使用
+```
+    implementation 'com.github.tbruyelle:rxpermissions:0.10.2'
+    implementation "io.reactivex.rxjava2:rxjava:2.2.8"
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
+	
+````
 
 
 # 方式四 [AndPermission](https://github.com/yanzhenjie/AndPermission)
